@@ -1,0 +1,35 @@
+{
+	"projects": [
+    {
+			"id": 1,
+      "type": "assignment",
+			"title": "Sverige Radio Player",
+			"previewImage": "/BeckiHeadshot.jpg",
+			"techSpecs": "HTML5, CSS5, Javascript (ES6), React, Github",
+      "toolBox": "Atom, Postman, Adobe Photoshop, Slack, Trello",
+      "more": "Concept Development, Agile Methodology",
+			"deliveryTime": "1-2 days",
+      "solution": "Lorem ipsum dolor sit amet",
+      "demo": "[Sverige Radio Player Demo]()",
+      "demoUrl": "https://github.com/BeckiW/assignment-radio-player",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla vel risus cursus pharetra. Quisque facilisis est eget tellus pretium euismod. Integer aliquam velit lacus, quis tempor ex varius at. Pellentesque accumsan, orci sed eleifend vestibulum, neque metus euismod lacus, ac ultrices felis magna a tellus. Phasellus eu ex augue. Cras facilisis tortor sed massa auctor, non malesuada nibh facilisis. Integer efficitur malesuada nibh, sed ullamcorper ipsum dignissim vel. Duis tempus quam nisl, vel elementum lectus finibus eu. Integer vehicula tortor non interdum varius.",
+      "shortDescription": "A Radio player for all Swedish radios built in React"
+    },
+
+    {
+			"id": 2,
+      "type": "assignment",
+			"title": "Expressen Online Newspaper",
+			"previewImage": "/BeckiHeadshot.jpg",
+			"techSpecs": "HTML5, CSS5, Javascript (ES6), Github",
+      "toolBox": "Atom, Postman, Slack, Trello",
+      "more": "Concept Development, Agile Methodology",
+			"deliveryTime": "1-4 days",
+      "solution": "Lorem ipsum dolor sit amet",
+      "demo": "[Expressen Online Newspaper Demo]()",
+      "demoUrl": "https://github.com/BeckiW/assignment-radio-player",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla vel risus cursus pharetra. Quisque facilisis est eget tellus pretium euismod. Integer aliquam velit lacus, quis tempor ex varius at. Pellentesque accumsan, orci sed eleifend vestibulum, neque metus euismod lacus, ac ultrices felis magna a tellus. Phasellus eu ex augue. Cras facilisis tortor sed massa auctor, non malesuada nibh facilisis. Integer efficitur malesuada nibh, sed ullamcorper ipsum dignissim vel. Duis tempus quam nisl, vel elementum lectus finibus eu. Integer vehicula tortor non interdum varius.",
+      "shortDescription": "An online food blog using News API"
+    }
+  ]
+}
