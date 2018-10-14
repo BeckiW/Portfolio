@@ -1,8 +1,12 @@
-.project-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 2%;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4em;
+  color: #555555;
+}
+
+.page-container {
+  margin-top: 60px;
 }

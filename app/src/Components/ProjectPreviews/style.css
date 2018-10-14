@@ -1,37 +1,19 @@
-
-h1 {
-
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 60px;
+.project-container {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-column-gap: 10px;
+  grid-row-gap: 16px;
+  align-items: center;
 }
 
-
-.project-item {
-
-  width: 20%;
-  height: 460px;
-  border: 1px solid black;
-  background-color: #ADD8E6;
-  margin: 50px;
-  box-shadow: 1px 1px 1px grey;
-  border-radius: 20px;
-  text-align: center;
-
+@media only screen and (max-width: 880px) and (min-width: 600px) {
+  .project-container {
+    grid-template-columns: 48% 48%;
+  }
 }
 
-.project-item h2 {
-
-  margin-left: 5px;
-}
-
-.projectImage {
-  height: 200px;
-   background-repeat: no-repeat;
-   background-size: cover;
-   overflow: hidden;
-   margin: 0.5%;
-   border: 1px solid black;
-   align-items: center;
-   border-radius: 20px;
-
+@media only screen and (max-width: 600px) {
+  .project-container {
+    grid-template-columns: 100%;
+  }
 }

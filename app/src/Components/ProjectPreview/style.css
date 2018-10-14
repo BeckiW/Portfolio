@@ -1,0 +1,38 @@
+
+.project-item {
+  height: 100%;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+}
+
+.project-item {
+  margin-left: 5px;
+}
+
+.project-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  object-fit: cover;
+  background-color: white;
+  padding-bottom: 8px;
+}
+
+.project-summary {
+  padding: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.project-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.project-description {
+  font-size: 0.9em;
+}

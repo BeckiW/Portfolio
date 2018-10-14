@@ -1,21 +1,29 @@
 import React from "react"
+import ProjectPreview from "../ProjectPreview"
 import "./style.css"
 
 
 const projectsJson = require("../../Data/projects.json")
 
-
-class ProjectsPreview extends React.Component {
+class ProjectPreviews extends React.Component {
   render() {
     return (
-      <div className="project-item">
-        <div className="projectImage">
-          <img src={this.props.image} alt="project Image" />
-        </div>
-        <h2>{this.props.shortDescription}</h2>
+      <div className="project-container">
+        { projectsJson.projects.map((project) => {
+            return (
+              <ProjectPreview key={project.id}
+                name={project.title}
+                image={project.previewImage}
+                shortDescription={project.shortDescription}
+                Description={project.Description}
+                deliveryTime={project.deliveryTime} />
+              )
+            }
+          )
+        }
       </div>
     )
   }
 }
 
-export default ProjectsPreview
+export default ProjectPreviews
