@@ -11,7 +11,7 @@ class ProjectPreviews extends React.Component {
       <div className="project-container">
         { projectsJson.projects.map((project) => {
             return (
-              <ProjectPreview key={project.id}
+              <ProjectPreview id={project.id}
                 name={project.title}
                 image={project.previewImage}
                 shortDescription={project.shortDescription}

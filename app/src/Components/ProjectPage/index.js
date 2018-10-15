@@ -32,15 +32,42 @@ class ProductPage extends React.Component {
     {
       return (
         <div className="project-page">
-            <img className="pageImage" src={this.state.project.image} alt="project Image" />
+            <img className="pageImage" src={"/" + this.state.project.previewImage} alt="project Image" />
+
             <h2>{this.state.project.title}</h2>
             <p>{this.state.project.description}</p>
 
             <div className="button"><a href="/product:id"><p>See it live</p></a></div>
             <div className="button"><a href={this.state.project.demoURL}><p>Github Repo</p></a></div>
 
+            <h2>Tech Specs</h2>
 
-        </div>
+              <div className= "techSpecs-component">
+              {this.state.project.techSpecs.map((item)=> {
+                return <li>{item}</li>
+              })}
+              </div>
+
+
+            <h2>Toolbox</h2>
+
+              <div className="toolbox-component">
+              {this.state.project.toolBox.map((item) => {
+                return <li>{item}</li>
+              })}
+              </div>
+
+
+            <h2>More</h2>
+
+              <div className="more-component">
+              {this.state.project.more.map((item) => {
+                return <li>{item}</li>
+              })}
+              </div>
+
+</div>
+
       )
     } else {
       return (

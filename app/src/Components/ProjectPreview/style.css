@@ -25,12 +25,18 @@
   padding: 8px;
   padding-left: 14px;
   padding-right: 14px;
+
 }
 
 .project-title {
   font-size: 1.1em;
   font-weight: bold;
   line-height: 1.5em;
+
+}
+
+.project-title:hover {
+    background: #D3D3D3;
 }
 
 .project-description {

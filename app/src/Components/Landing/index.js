@@ -16,7 +16,7 @@ class Landing extends React.Component {
       <div className="landing-hero-image">
         <h1>My name is <strong>Becki</strong></h1>
         <div class="tagline">
-          I am a JavaScript Developer and Researcher who is interested in technology and science.
+          I am a JavaScript Developer and Researcher who is interested in new technology, science and Formula 1.
         </div>
       </div>
 

@@ -5,8 +5,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.4em;
   color: #555555;
+  background-color: #eeeeee;
 }
 
 .page-container {
-  margin-top: 60px;
+  margin: 60px auto;
+  max-width: 1200px;
+  background-color: white;
 }

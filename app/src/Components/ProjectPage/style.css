@@ -11,13 +11,62 @@
   z-index: 0;
   margin-bottom: 0px;
   padding: 0px;
+    object-fit: contain;
 }
 
 .pageImage img {
   height: auto;
   width: 100%;
-opacity: 0.6;
-z-index: 2;
-padding: 0px;
+  opacity: 0.6;
+  z-index: 2;
+  padding: 0px;
 
+}
+
+.toolbox-component {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+@media only screen and (max-width: 880px) and (min-width: 600px) {
+  .toolbox-component {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .toolbox-component {
+    grid-template-columns: 1fr;
+  }
+}
+
+.toolbox-component div {
+  border: solid 1px #ddd;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.toolbox-component h3 {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.toolbox-component ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.toolBox-component ul li {
+  display: block;
+  padding: 4px;
+}
+
+.toolbox-component ul li:nth-child(odd) {
+  background-color: #f3f3f3;
 }

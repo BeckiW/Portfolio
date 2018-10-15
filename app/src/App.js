@@ -8,6 +8,7 @@ import Skills from './Components/Skills'
 import Landing from './Components/Landing'
 import ProjectPage from './Components/ProjectPage'
 import PageNotFound from './Components/PageNotFound'
+import ProjectPageTech from './Components/ProjectPageTech'
 
 const projectsJson = require("./Data/projects.json")
 
@@ -22,6 +23,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Landing} />
             <Route path="/project/:id" component={ProjectPage}/>
+            <Route path="/projects" component={ProjectPageTech}/>
+
             <Route component={PageNotFound} />
           </Switch>
 
