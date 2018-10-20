@@ -21,6 +21,7 @@ class ProjectPreviews extends React.Component {
             }
           )
         }
+
       </div>
     )
   }

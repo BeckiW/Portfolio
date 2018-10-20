@@ -7,7 +7,7 @@ class ProjectPreview extends React.Component {
     return (
       <div className="project-item">
         <div className="project-image">
-          <img src={this.props.image} alt="project Image" />
+          <img src={"/" + this.props.image} alt="project Image" />
         </div>
         <div className="project-summary">
           <a href={"/project/" + this.props.id}><span class="project-title">{this.props.name}</span></a>

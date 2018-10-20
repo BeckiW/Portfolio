@@ -8,13 +8,29 @@
 }
 
 @media only screen and (max-width: 880px) and (min-width: 600px) {
-  .project-container {
+  body .project-container {
     grid-template-columns: 48% 48%;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .project-container {
+  body .project-container {
     grid-template-columns: 100%;
   }
+}
+
+.button a{
+
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #ede3a6;
+}
+
+.button-container {
+
+    margin: auto;
+    width: 40%;
+    padding: 10px;
 }

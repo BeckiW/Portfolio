@@ -19,7 +19,7 @@ class Header extends React.Component {
           <nav>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/project/1">Projects</a></li>
+              <li><a href="/my-projects/">Projects</a></li>
               <li><a href="mailto: r.a.wordsworth@gmail.com">Contact</a></li>
             </ul>
           </nav>

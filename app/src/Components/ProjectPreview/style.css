@@ -16,7 +16,7 @@
 
 .project-image img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   background-color: white;
   padding-bottom: 8px;
 }

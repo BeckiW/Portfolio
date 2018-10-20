@@ -18,17 +18,19 @@ class Skills extends React.Component {
             <li>React</li>
             <li>Node</li>
             <li>MongoDB</li>
-            <li>Python for data analysis</li>
+            <li>Python</li>
+            <li>Swift</li>
+
           </ul>
         </div>
 
         <div className="toolbox-skills">
           <h3>Toolbox</h3>
           <ul>
-            <li>Atom</li>
-            <li>Postman</li>
-            <li>Trello</li>
+            <li>Git</li>
             <li>Jira</li>
+            <li>SQL</li>
+            <li>Trello</li>
             <li>Slack</li>
           </ul>
         </div>
@@ -38,7 +40,8 @@ class Skills extends React.Component {
           <ul>
             <li>Research</li>
             <li>Leadership</li>
-            <li>Statistical Analysis</li>
+            <li>Data Analysis</li>
+            <li>Data Visualisation</li>
           </ul>
         </div>
 

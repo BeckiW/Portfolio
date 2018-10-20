@@ -5,15 +5,15 @@
       "type": "assignment",
 			"title": "Sverige Radio Player",
 			"previewImage": "Radio-player.png",
-			"techSpecs": ["HTML5, CSS, Javascript (ES6), React, Github"],
-      "toolBox": ["Atom, Postman, Adobe Photoshop, Slack, Trello"],
-      "more": ["Concept Development, Agile Methodology"],
+			"techSpecs": ["HTML5", "CSS", "Javascript (ES6)", "React", "Github"],
+      "toolBox": ["Git", "Postman", "Slack", "Trello"],
+      "more": ["Concept Development", "Agile Methodology"],
 			"deliveryTime": "1-2 days",
       "solution": "Lorem ipsum dolor sit amet",
       "demo": "[Sverige Radio Player Demo]()",
       "demoUrl": "https://github.com/BeckiW/assignment-radio-player",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla vel risus cursus pharetra. Quisque facilisis est eget tellus pretium euismod. Integer aliquam velit lacus, quis tempor ex varius at. Pellentesque accumsan, orci sed eleifend vestibulum, neque metus euismod lacus, ac ultrices felis magna a tellus. Phasellus eu ex augue. Cras facilisis tortor sed massa auctor, non malesuada nibh facilisis. Integer efficitur malesuada nibh, sed ullamcorper ipsum dignissim vel. Duis tempus quam nisl, vel elementum lectus finibus eu. Integer vehicula tortor non interdum varius.",
-      "shortDescription": "A Radio player for all Swedish radios built in React"
+      "shortDescription": "A Radio player built in React using Sveriges Radio's API to fetch information about the radio channels."
     },
 
     {
@@ -21,15 +21,15 @@
       "type": "assignment",
 			"title": "Food Blog",
 			"previewImage": "Food-blog.png",
-			"techSpecs": "HTML5, CSS5, Javascript (ES6), Github",
-      "toolBox": "Atom, Postman, Slack, Trello",
-      "more": "Concept Development, Agile Methodology",
+			"techSpecs": ["HTML5", "CSS", "Javascript (ES6)", "React"],
+      "toolBox": ["Git", "Postman", "Slack", "Trello"],
+      "more": ["Concept Development", "Agile Methodology"],
 			"deliveryTime": "1-4 days",
       "solution": "Lorem ipsum dolor sit amet",
       "demo": "[Expressen Online Newspaper Demo]()",
-      "demoUrl": "https://github.com/BeckiW/assignment-radio-player",
+      "demoUrl": "https://github.com/BeckiW/Expressen-Online-Newspaper",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla vel risus cursus pharetra. Quisque facilisis est eget tellus pretium euismod. Integer aliquam velit lacus, quis tempor ex varius at. Pellentesque accumsan, orci sed eleifend vestibulum, neque metus euismod lacus, ac ultrices felis magna a tellus. Phasellus eu ex augue. Cras facilisis tortor sed massa auctor, non malesuada nibh facilisis. Integer efficitur malesuada nibh, sed ullamcorper ipsum dignissim vel. Duis tempus quam nisl, vel elementum lectus finibus eu. Integer vehicula tortor non interdum varius.",
-      "shortDescription": "An online food blog built in Vanilla Javascript using News API"
+      "shortDescription": "Created a new online newspaper using Javascript and News API for Bonnier News"
     },
 
 		{
@@ -37,15 +37,15 @@
 			"type": "assignment",
 			"title": "Jobs Site",
 			"previewImage": "jobs.jpg",
-			"techSpecs": "HTML5, CSS5, Javascript (ES6), React, Git",
-			"toolBox": "Atom, Postman, Slack, Trello",
-			"more": "Concept Development, Agile Methodology",
+			"techSpecs": ["HTML5", "CSS5", "Javascript (ES6)", "React"],
+			"toolBox": ["Git", "Postman", "Slack", "Trello"],
+			"more": ["Concept Development", "Agile Methodology"],
 			"deliveryTime": "1-4 days",
 			"solution": "Lorem ipsum dolor sit amet",
 			"demo": "[Jobs site]()",
-			"demoUrl": "https://github.com/Technigo/Sprint-3-Team-2-Fall18",
+			"demoUrl": "https://github.com/BeckiW/Jobs-site",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla vel risus cursus pharetra. Quisque facilisis est eget tellus pretium euismod. Integer aliquam velit lacus, quis tempor ex varius at. Pellentesque accumsan, orci sed eleifend vestibulum, neque metus euismod lacus, ac ultrices felis magna a tellus. Phasellus eu ex augue. Cras facilisis tortor sed massa auctor, non malesuada nibh facilisis. Integer efficitur malesuada nibh, sed ullamcorper ipsum dignissim vel. Duis tempus quam nisl, vel elementum lectus finibus eu. Integer vehicula tortor non interdum varius.",
-			"shortDescription": "A multi page jobs site built in React for client Comprend"
+			"shortDescription": "An new multi page job site built in React using their internal recruitment API for client Comprend"
 		},
 
 		{
@@ -53,15 +53,15 @@
 			"type": "assignment",
 			"title": "Time Zone Clock",
 			"previewImage": "clock.jpg",
-			"techSpecs": "HTML5, CSS5, Javascript (ES6), React, Git",
-			"toolBox": "Atom, Slack, Trello",
-			"more": "Concept Development, Agile Methodology",
+			"techSpecs": ["HTML5", "CSS5", "Javascript (ES6)", "React"],
+			"toolBox": ["Git", "Postman", "Slack", "Trello"],
+			"more": ["Concept Development", "Agile Methodology"],
 			"deliveryTime": "1 day",
 			"solution": "Lorem ipsum dolor sit amet",
 			"demo": "[Time Zone Clock]()",
-			"demoUrl": "https://github.com/Technigo/Sprint-3-Team-2-Fall18",
+			"demoUrl": "https://github.com/BeckiW/World-Clock",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla vel risus cursus pharetra. Quisque facilisis est eget tellus pretium euismod. Integer aliquam velit lacus, quis tempor ex varius at. Pellentesque accumsan, orci sed eleifend vestibulum, neque metus euismod lacus, ac ultrices felis magna a tellus. Phasellus eu ex augue. Cras facilisis tortor sed massa auctor, non malesuada nibh facilisis. Integer efficitur malesuada nibh, sed ullamcorper ipsum dignissim vel. Duis tempus quam nisl, vel elementum lectus finibus eu. Integer vehicula tortor non interdum varius.",
-			"shortDescription": "A timezone comparison clock built in React"
+			"shortDescription": "A timezone comparison clock built witj Javascript and React"
 		},
 
 		{
@@ -69,9 +69,9 @@
 			"type": "assignment",
 			"title": "Space Avengers Game",
 			"previewImage": "space-avengers.jpg",
-			"techSpecs": "HTML5, CSS5, Javascript (ES6), Phaser.js, Git",
-			"toolBox": "Atom, Slack, Trello",
-			"more": "Concept Development, Agile Methodology",
+			"techSpecs": ["HTML5", "CSS5", "Javascript (ES6)", "Phaser.js"],
+			"toolBox": ["Git", "Postman", "Slack", "Trello"],
+			"more": ["Concept Development", "Agile Methodology"],
 			"deliveryTime": "1-2 day",
 			"solution": "Lorem ipsum dolor sit amet",
 			"demo": "[Space Avengers]()",
@@ -85,16 +85,50 @@
 			"type": "assignment",
 			"title": "Weather App",
 			"previewImage": "weather.jpg",
-			"techSpecs": "Swift, iOS",
-			"toolBox": "Xcode, Slack, Trello",
-			"more": "Concept Development, Agile Methodology",
+			"techSpecs": ["Swift", "iOS"],
+			"toolBox": ["XCode", "Git", "Postman", "Slack", "Trello"],
+			"more": ["Concept Development", "Agile Methodology"],
 			"deliveryTime": "1-2 day",
 			"solution": "Lorem ipsum dolor sit amet",
 			"demo": "[Space Avengers]()",
-			"demoUrl": "https://github.com/BeckiW/Space-Avengers",
+			"demoUrl": "https://github.com/BeckiW/Weather",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla vel risus cursus pharetra. Quisque facilisis est eget tellus pretium euismod. Integer aliquam velit lacus, quis tempor ex varius at. Pellentesque accumsan, orci sed eleifend vestibulum, neque metus euismod lacus, ac ultrices felis magna a tellus. Phasellus eu ex augue. Cras facilisis tortor sed massa auctor, non malesuada nibh facilisis. Integer efficitur malesuada nibh, sed ullamcorper ipsum dignissim vel. Duis tempus quam nisl, vel elementum lectus finibus eu. Integer vehicula tortor non interdum varius.",
 			"shortDescription": "An iOS weather app built with Swift"
+		},
+
+		{
+			"id": 7,
+			"type": "assignment",
+			"title": "Location App",
+			"previewImage": "Location.jpg",
+			"techSpecs": ["Swift", "iOS"],
+			"toolBox": ["XCode", "Git", "Postman", "Slack", "Trello"],
+			"more": ["Concept Development", "Agile Methodology"],
+			"deliveryTime": "1-2 day",
+			"solution": "Lorem ipsum dolor sit amet",
+			"demo": "[Space Avengers]()",
+			"demoUrl": "https://github.com/BeckiW/Where-did-I-leave-my-car",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla vel risus cursus pharetra. Quisque facilisis est eget tellus pretium euismod. Integer aliquam velit lacus, quis tempor ex varius at. Pellentesque accumsan, orci sed eleifend vestibulum, neque metus euismod lacus, ac ultrices felis magna a tellus. Phasellus eu ex augue. Cras facilisis tortor sed massa auctor, non malesuada nibh facilisis. Integer efficitur malesuada nibh, sed ullamcorper ipsum dignissim vel. Duis tempus quam nisl, vel elementum lectus finibus eu. Integer vehicula tortor non interdum varius.",
+			"shortDescription": "An iOS location based app that uses local storage to enables you to put pins in memorable location and return later to find them "
+		},
+
+		{
+			"id": 7,
+			"type": "assignment",
+			"title": "Location App",
+			"previewImage": "Location.jpg",
+			"techSpecs": ["Swift", "iOS"],
+			"toolBox": ["XCode", "Git", "Postman", "Slack", "Trello"],
+			"more": ["Concept Development", "Agile Methodology"],
+			"deliveryTime": "1-2 day",
+			"solution": "Lorem ipsum dolor sit amet",
+			"demo": "[Space Avengers]()",
+			"demoUrl": "https://github.com/BeckiW/Where-did-I-leave-my-car",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nulla vel risus cursus pharetra. Quisque facilisis est eget tellus pretium euismod. Integer aliquam velit lacus, quis tempor ex varius at. Pellentesque accumsan, orci sed eleifend vestibulum, neque metus euismod lacus, ac ultrices felis magna a tellus. Phasellus eu ex augue. Cras facilisis tortor sed massa auctor, non malesuada nibh facilisis. Integer efficitur malesuada nibh, sed ullamcorper ipsum dignissim vel. Duis tempus quam nisl, vel elementum lectus finibus eu. Integer vehicula tortor non interdum varius.",
+			"shortDescription": "An iOS location based app that uses local storage to enables you to put pins in memorable location and return later to find them "
 		}
+
+
 	]
 
 }

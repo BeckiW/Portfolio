@@ -13,7 +13,7 @@ class ProductPage extends React.Component {
   }
 
   componentDidMount() {
-    const projectId = this.props.match.params.id;   // Get the ID from react router
+    const projectId = this.props.match.params.id;
     const project = projectsJson.projects.find((project) => {
       if (project.id == projectId) {
         return true;
@@ -32,42 +32,52 @@ class ProductPage extends React.Component {
     {
       return (
         <div className="project-page">
-            <img className="pageImage" src={"/" + this.state.project.previewImage} alt="project Image" />
+          <img className="pageImage" src={"/" + this.state.project.previewImage} alt="project Image"  />
 
-            <h2>{this.state.project.title}</h2>
-            <p>{this.state.project.description}</p>
+          <div className="projectpagewriting">
+              <h2>{this.state.project.title}</h2>
+              <p>{this.state.project.description}</p>
+          </div>
 
-            <div className="button"><a href="/product:id"><p>See it live</p></a></div>
-            <div className="button"><a href={this.state.project.demoURL}><p>Github Repo</p></a></div>
+          <div className="button-container">
+            <a href="/product:id" className="button">See it live</a>
+            <a href={this.state.project.demoURL} className="button">Github Repo</a>
+          </div>
 
-            <h2>Tech Specs</h2>
+          <section className="project-page-section">
+            <h2>Specs</h2>
+            <hr />
 
-              <div className= "techSpecs-component">
-              {this.state.project.techSpecs.map((item)=> {
-                return <li>{item}</li>
-              })}
+            <div className="tech-specs-container">
+              <div className="toolbox-component">
+                <h3>Tech</h3>
+                <ul>
+                  {this.state.project.techSpecs.map((item)=> {
+                  return <li>{item}</li>
+                  })}
+                </ul>
               </div>
-
-
-            <h2>Toolbox</h2>
 
               <div className="toolbox-component">
-              {this.state.project.toolBox.map((item) => {
-                return <li>{item}</li>
-              })}
+                <h3>Toolbox</h3>
+                <ul>
+                  {this.state.project.toolBox.map((item) => {
+                  return <li>{item}</li>
+                  })}
+                </ul>
               </div>
 
-
-            <h2>More</h2>
-
-              <div className="more-component">
-              {this.state.project.more.map((item) => {
-                return <li>{item}</li>
-              })}
+              <div className="toolbox-component">
+                <h3>More</h3>
+                <ul>
+                  {this.state.project.more.map((item) => {
+                  return <li>{item}</li>
+                  })}
+                </ul>
               </div>
-
-</div>
-
+            </div>
+          </section>
+        </div>
       )
     } else {
       return (

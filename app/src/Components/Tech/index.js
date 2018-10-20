@@ -10,8 +10,10 @@ class Tech extends React.Component {
       <div className="skills-Component">
 
         <p className="Tech-blurb">
-        I have always had a passion for tech and solving problems with technology. In my PhD and research career I used software to build small solutions and analyse data. Now I am focussing on Javascript and with the Technigo program I will complete 480 hours of coding, 50+ individual projects with HTML5, CSS, SASS, Javascript (ES6), React, Node
-        and MongoDB and 6 sprints and group projects with companies such as Volumental, Bonnier, Comprend and Svenska Spel all within 3 months.
+        I have always had a passion for solving problems with technology. Throughout my PhD and research career I built small solutions and analyse data with a variety of programming tools.
+        <br/>
+          <br/>
+      Now I am moving from hobby programmer to professional and focussing on Javascript. With the Technigo program I will complete 480 hours of coding, 50+ individual projects with HTML5, CSS, SASS, Javascript (ES6), React, Node, and MongoDB and 6 sprints and group projects with companies such as Volumental, Bonnier, Comprend and Svenska Spel all within 3 months.   <br/>  <br/>In my spare time I also like to build small applications with Python and Swift, and am investigating data visualiston with packages such as D3.js.
         </p>
 
       </div>

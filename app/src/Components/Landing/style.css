@@ -1,6 +1,6 @@
 .landing-hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url("/hero-01.jpg");
-  height: 400px;
+  height: 460px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,14 +22,31 @@
   position: absolute;
   top: 260px;
   right: 60px;
-  width: 400px;
+  width: 360px;
   text-align: right;
   line-height: 1.5em;
   color: white;
   font-size: 1.1em;
   font-weight: bold;
   text-shadow: 1px 1px 0px black;
+}
 
+@media screen and (max-width: 640px) {
+  body .landing-hero-image h1 {
+    width: 100%;
+    right: 0px;
+    top: 240px;
+    text-align: center;
+    font-size: 2.0em;
+  }
+
+  body .landing-hero-image .tagline {
+    width: 84%;
+    right: 8%;
+    top: 320px;
+    text-align: center;
+    font-size: 1.0em;
+  }
 }
 
 .landing-page section {
@@ -66,4 +83,10 @@
 .landing-page section > p {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.landing-page a {
+  text-decoration: none;
+  color: black;
+  text-emphasis: 1em;
 }
