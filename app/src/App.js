@@ -25,7 +25,7 @@ class App extends Component {
             <Route exact path="/" component={Landing} />
             <Route path="/project/:id" component={ProjectPage}/>
             <Route path="/my-projects/" component={ProjectPageTech}/>
-            <Route path="/contact/" component={ContactPage}/>
+            <Route path="/contact-me/" component={ContactPage}/>
 
             <Route component={PageNotFound} />
           </Switch>

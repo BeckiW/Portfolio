@@ -30,21 +30,32 @@ class ProductPage extends React.Component {
   render() {
     if ( this.state.project )
     {
+      let demoLink = "";
+      let gitLink = "";
+
+      if ( this.state.project.demoUrl ) {
+          demoLink = <a href={this.state.project.demoUrl} className="button">See it Live</a>
+      }
+
+      if ( this.state.project.gitUrl ) {
+          gitLink = <a href={this.state.project.gitUrl} className="button">Github Repo</a>
+      }
+
       return (
         <div className="project-page">
-          <img className="pageImage" src={"/" + this.state.project.previewImage} alt="project Image"  />
 
-          <div className="projectpagewriting">
-              <h2>{this.state.project.title}</h2>
-              <p>{this.state.project.description}</p>
+          <div className="project-page-writing content-padding">
+            <h1>{this.state.project.title}</h1>
+            <img className="project-image" src={"/" + this.state.project.heroImage} alt="project Image"  />
+            <p>{this.state.project.description}</p>
           </div>
 
-          <div className="button-container">
-            <a href="/product:id" className="button">See it live</a>
-            <a href={this.state.project.demoURL} className="button">Github Repo</a>
+          <div className="button-container content-padding">
+            {demoLink}
+            {gitLink}
           </div>
 
-          <section className="project-page-section">
+          <section className="project-page-section content-padding">
             <h2>Specs</h2>
             <hr />
 

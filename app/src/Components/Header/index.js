@@ -6,7 +6,7 @@ import Skills from '../Skills'
 const projectsJson = require("../../Data/projects.json")
 
 
-class Header extends React.Component {
+class ProjectPage extends React.Component {
 
   render() {
     return (
@@ -20,7 +20,7 @@ class Header extends React.Component {
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/my-projects/">Projects</a></li>
-              <li><a href="mailto: r.a.wordsworth@gmail.com">Contact</a></li>
+              <li><a href="/contact-me/">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -38,4 +38,4 @@ class Header extends React.Component {
 }
 
 
-export default Header
+export default ProjectPage

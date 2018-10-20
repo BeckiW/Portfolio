@@ -16,7 +16,7 @@ class ProjectPageTech extends React.Component {
           <h2>More Projects</h2>
           <hr />
 
-          <div className="project-container">
+          <div className="project-container content-padding">
             { projectsJson.projects.map((project) => {
                 return (
                   <ProjectPreview id={project.id}
