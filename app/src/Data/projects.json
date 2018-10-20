@@ -12,7 +12,7 @@
 			"deliveryTime": "1-2 days",
       "solution": "Lorem ipsum dolor sit amet",
       "demo": "[Sverige Radio Player Demo]()",
-			"demoUrl": "https://github.com/BeckiW/assignment-radio-player",
+			"demoUrl": "http://beckiwordsworth.com/project-radio-player/",
       "gitUrl": "https://github.com/BeckiW/assignment-radio-player",
       "description": "A searchable radio player using channels from the Sverige Radio's API. The search function lets you filter through the channels and find your favourite station to play. The page itself is responsive with media queries for mobile and tablet.",
       "shortDescription": "A searchable radio player built in React using Sveriges Radio's API to fetch and play your favourite radio channel."
@@ -30,6 +30,7 @@
 			"deliveryTime": "1-4 days",
       "solution": "Lorem ipsum dolor sit amet",
       "demo": "[Expressen Online Newspaper Demo]()",
+			"demoUrl": "http://beckiwordsworth.com/project-food-blog/",
       "gitUrl": "https://github.com/BeckiW/Expressen-Online-Newspaper",
       "description": "New online newspaper made for Bonnier News using Vanilla Javascript, HTML, and CSS, along with the Google News API. We were tasked with developing a new lifestyle site and we chose a food theme. You are able to filter through food catagories and load more articles if you want to see more.",
       "shortDescription": "Designed a new online lifestyle site using Javascript, HTML, CSS and Google's News API for Bonnier News"
@@ -47,6 +48,7 @@
 			"deliveryTime": "1-4 days",
 			"solution": "Lorem ipsum dolor sit amet",
 			"demo": "[Jobs site]()",
+			"demoUrl": "http://project-job-site.beckiwordsworth.com/",
 			"gitUrl": "https://github.com/BeckiW/Jobs-site",
 			"description": "We developed a multipage career site for our partner Comprend using their recruitment API.",
 			"shortDescription": "An new multi page job site built in React using their internal recruitment API for client Comprend"
@@ -63,7 +65,7 @@
 			"more": ["Concept Development", "Agile Methodology"],
 			"deliveryTime": "1 day",
 			"solution": "Lorem ipsum dolor sit amet",
-			"demo": "[Time Zone Clock]()",
+			"demoURL": "http://beckiwordsworth.com/project-world-clock/",
 			"gitUrl": "https://github.com/BeckiW/World-Clock",
 			"description": "A world timezone clock built with React and using moment.js. You are able to compare the time in Stockholm to other countries in the world.",
 			"shortDescription": "A timezone comparison clock built with Javascript and React and using moment.js to compare time in countries around the world"
