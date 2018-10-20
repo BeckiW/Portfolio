@@ -5,15 +5,6 @@
   background-color: #f3f3f3;
 }
 
-.project-container {
-  display: grid;
-  grid-template-columns: 32% 32% 32%;
-  grid-column-gap: 10px;
-  grid-row-gap: 16px;
-  align-items: center;
-  text-decoration: none;
-}
-
 .project-item {
   margin-left: 5px;
 }
@@ -35,21 +26,6 @@
   padding-left: 14px;
   padding-right: 14px;
 
-}
-
-.project-title {
-  font-size: 1.1em;
-  font-weight: bold;
-  line-height: 1.5em;
-
-}
-
-.project-title:hover {
-    background: #D3D3D3;
-}
-
-.project-description {
-  font-size: 0.9em;
 }
 
 .TechPageContainer section {
@@ -76,16 +52,6 @@ section.my-projects {
   height: 2px;
   border: 0px;
   margin-bottom: 20px;
-}
-
-.TechPageContainer section > div {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.TechPageContainer section > p {
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 .TechPageContainer a {

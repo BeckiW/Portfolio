@@ -75,16 +75,6 @@
   margin-bottom: 20px;
 }
 
-.landing-page section > div {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.landing-page section > p {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 .landing-page a {
   text-decoration: none;
   color: black;

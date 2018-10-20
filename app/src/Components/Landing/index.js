@@ -20,31 +20,31 @@ class Landing extends React.Component {
         </div>
       </div>
 
-      <section className="landing-section">
+      <section className="landing-section content-padding">
         <h2>About Me</h2>
         <hr />
         <p>I'm a self-driven and creative problem solver with a PhD in Medical Physics and a passion for working with technology, software and cool new ideas. While working in research I using statistical and scripting languages (Python, SPSS, Matlab) for analysis. That inspired me to delve deeper into programming and based on that I'm looking to move from hobby programmer to full-time developer. I spent 3 years as a technical recruiter in a business environment and this has inspired me to focus on JavaScript as my direction going forward.</p>
       </section>
 
-      <section className="landing-section">
+      <section className="landing-section content-padding">
         <h2>Technology</h2>
         <hr />
         <Tech />
       </section>
 
-      <section className="landing-section">
+      <section className="landing-section content-padding">
         <h2>Selected <strong>Projects</strong></h2>
         <hr />
         <ProjectPreviews />
       </section>
 
-      <section className="landing-section">
+      <section className="landing-section content-padding">
         <h2>Skills</h2>
         <hr />
         <Skills />
       </section>
 
-      <section className="landing-section">
+      <section className="landing-section content-padding">
         <h2>Education</h2>
         <hr />
         <Education />

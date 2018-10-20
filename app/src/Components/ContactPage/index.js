@@ -32,26 +32,17 @@ class ContactPage extends React.Component {
    render() {
      return (
 
-       <form className="ContactItem">
+       <div className="ContactItem">
 
        <h2> Contact me </h2>
        <hr />
 
-       <p> Email me: Becki.Wordsworth - AT - Gmail.com  or fill in the form below. </p>
+       <p> If you have any questions about my projects, then you’re welcome to send me an email at the address below. </p>
 
-               <label htmlFor="Name">Name</label>
-               <input id="Name" type="text" value={this.props.name} onChange={this.queryChange} />
+       <p><strong>Email me: Becki.Wordsworth - AT - Gmail.com</strong> </p>
 
-               <label htmlFor="email">Email Address</label>
-               <input id="email" type="email" value={this.props.email} onChange={this.queryChange} />
-
-               <label htmlFor="Message">Message</label>
-               <input id="message" type="text" value={this.props.message} onSubmit ={this.queryChange} />
-
-                <input type="submit" value="Submit" onClick={this.handleSubmit}/>
-
-
-     </form>
+       <p>If you just want to say hello or make contact, then ping me on <a href="www.twitter.com/beckiwordsworth">Twitter</a> or <a href="www.linkedin.com/beckiwordsworth">LinkedIn</a></p>
+       </div>
 
      );
    }

@@ -1,7 +1,7 @@
 .project-container {
   display: grid;
   grid-template-columns: 32% 32% 32%;
-  grid-column-gap: 10px;
+  grid-column-gap: 16px;
   grid-row-gap: 16px;
   align-items: center;
   text-decoration: none;
@@ -17,20 +17,4 @@
   body .project-container {
     grid-template-columns: 100%;
   }
-}
-
-.button a{
-
-  text-decoration: none;
-}
-
-.button:hover {
-  background: #ede3a6;
-}
-
-.button-container {
-
-    margin: auto;
-    width: 40%;
-    padding: 10px;
 }

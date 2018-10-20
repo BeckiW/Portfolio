@@ -13,3 +13,8 @@ body {
   max-width: 1200px;
   background-color: white;
 }
+
+.content-padding {
+  padding-left: 5%;
+  padding-right: 5%;
+}
