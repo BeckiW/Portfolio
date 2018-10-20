@@ -41,7 +41,7 @@ class ContactPage extends React.Component {
 
        <p><strong>Email me: Becki.Wordsworth - AT - Gmail.com</strong> </p>
 
-       <p>If you just want to say hello or make contact, then ping me on <a href="www.twitter.com/beckiwordsworth">Twitter</a> or <a href="www.linkedin.com/beckiwordsworth">LinkedIn</a></p>
+       <p>If you just want to say hello or make contact, then ping me on <a href="www.twitter.com/beckiwordsworth">Twitter</a> or connect with me on <a href="www.linkedin.com/beckiwordsworth">LinkedIn</a></p>
        </div>
 
      );

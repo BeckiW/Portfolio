@@ -17,7 +17,7 @@ class Skills extends React.Component {
 
         <div className="phD-skills">
           <h3>PhD Medical Physics </h3>
-          <p>Independent research into the development and use of a haemodynamic model system that can evaluate independently the impact of pressure and strain, commensurate with the microvasculature on microvascular endothelial cell function in Type 2 diabetes. </p>
+          <p>Independent research developing a haemodynamic model system that can isolate and evaluate the impact of pressure and cyclic strain, commensurate with that seen in the microvasculature, on endothelial cell function in patients with Type 2 Diabetes. </p>
         </div>
 
         <div className="masters-skills">

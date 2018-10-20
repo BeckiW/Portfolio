@@ -41,6 +41,7 @@ class Skills extends React.Component {
             <li>Research</li>
             <li>Leadership</li>
             <li>Data Analysis</li>
+            <li>Machine Learning</li>
             <li>Data Visualisation</li>
           </ul>
         </div>
