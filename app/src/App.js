@@ -9,6 +9,7 @@ import Landing from './Components/Landing'
 import ProjectPage from './Components/ProjectPage'
 import PageNotFound from './Components/PageNotFound'
 import ProjectPageTech from './Components/ProjectPageTech'
+import ContactPage from './Components/ContactPage'
 
 const projectsJson = require("./Data/projects.json")
 
@@ -24,6 +25,7 @@ class App extends Component {
             <Route exact path="/" component={Landing} />
             <Route path="/project/:id" component={ProjectPage}/>
             <Route path="/my-projects/" component={ProjectPageTech}/>
+            <Route path="/contact/" component={ContactPage}/>
 
             <Route component={PageNotFound} />
           </Switch>
