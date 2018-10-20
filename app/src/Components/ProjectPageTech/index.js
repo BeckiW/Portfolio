@@ -24,12 +24,15 @@ class ProjectPageTech extends React.Component {
                     image={project.previewImage}
                     shortDescription={project.shortDescription}
                     Description={project.Description}
-                    deliveryTime={project.deliveryTime} />
+                    deliveryTime={project.deliveryTime}
+                    gitURL ={project.gitURL} />
                   )
                 }
               )
             }
           </div>
+
+          <div className="button-container-tech"><a href="https://github.com/BeckiW" className="button-tech">Visit Github</a></div>
         </section>
       </div>
     )
