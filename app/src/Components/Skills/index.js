@@ -17,7 +17,9 @@ class Skills extends React.Component {
             <li>Javascript (ES6)</li>
             <li>React</li>
             <li>Node</li>
+            <li>Express.js</li>
             <li>MongoDB</li>
+            <li>Herouku</li>
             <li>Python</li>
             <li>Swift</li>
 
