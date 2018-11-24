@@ -1,24 +1,7 @@
 {
 	"projects": [
-    {
+  	{
 			"id": 1,
-      "type": "assignment",
-			"title": "Sverige Radio Player",
-			"previewImage": "Sverige-Radio-small.jpg",
-			"heroImage": "Sverige-Radio-Hero.jpg",
-			"techSpecs": ["HTML5", "CSS", "Javascript (ES6)", "React", "RESTful API"],
-      "toolBox": ["Git", "Postman", "Slack", "Trello"],
-      "more": ["Agile Methodology"],
-			"deliveryTime": "1-2 days",
-      "demo": "[Sverige Radio Player Demo]()",
-			"demoUrl": "http://beckiwordsworth.com/project-radio-player/",
-      "gitUrl": "https://github.com/BeckiW/Radio-Player",
-      "description": "A searchable radio player using channels from the Sverige Radio's API. The search function lets you filter through the channels and find your favourite station to play. The page itself is responsive with media queries for mobile and tablet.",
-      "shortDescription": "A searchable radio player built in React using Sveriges Radio's API to fetch, filter and play your favourite radio channel."
-    },
-
-		{
-			"id": 2,
 			"type": "assignment",
 			"title": "Fitness App",
 			"previewImage": "fitness-small.jpg",
@@ -32,6 +15,21 @@
 			"shortDescription": "A exercise app built with React and Novi data visualisation library, that combines fitness monitoring with gamification for Svenska Spel's Gräsroten scheme."
 		},
 
+		{
+			"id": 2,
+			"type": "assignment",
+			"title": "DuoPhysics",
+			"previewImage": "physics-small.jpg",
+				"heroImage" : "physics-hero.jpg",
+			"techSpecs": ["SASS", "Javascript (ES6)", "React", "React Router", "Node", "Express", "MongoDB"],
+			"toolBox": ["Git", "Trello"],
+			"more": ["Concept Development", "Agile Methodology"],
+			"deliveryTime": "5-10 days",
+			"solution": "Lorem ipsum dolor sit amet",
+			"gitUrl": "https://github.com/BeckiW/Physics-Education-Game",
+			"description": "Inspired by DuoLingo, this physics game was designed to inspire people to learn and love physics as much as I do. Built with SASS, React, Node, Express, and MongoDb. The site consists of a landing page, a topics page, game page and stats page. It also has a login and signup functions with bcrypt hashed passwords. Added extras include some data viz with the D3.js wrapper, Nivo.",
+			"shortDescription": "Physics quizzes with added gamification and data viz. Built with SASS, React, Node, Express, MongoDB"
+		},
 
 		{
 			"id": 3,
@@ -39,8 +37,8 @@
 			"title": "Javascript Space Avengers Game ",
 			"previewImage": "space-small.jpg",
 			"heroImage" : "space-large.jpg",
-			"techSpecs": ["HTML5", "CSS5", "Javascript", "Phaser.js"],
-			"toolBox": ["Git", "Berackets", "Trello"],
+			"techSpecs": ["HTML5", "CSS", "Javascript", "Phaser.js"],
+			"toolBox": ["Git", "Brackets", "Trello"],
 			"more": ["Agile Methodology"],
 			"deliveryTime": "1-2 day",
 			"solution": "Lorem ipsum dolor sit amet",
@@ -53,11 +51,26 @@
 		{
 			"id": 4,
 			"type": "assignment",
+			"title": "Bookshop",
+			"previewImage": "books-small.jpg",
+			"heroImage" : "books-hero.jpg",
+			"techSpecs": ["HTML5", "SASS", "Javascript (ES6)", "React", "Node", "MongoDB"],
+			"toolBox": ["Git", "Slack", "Trello"],
+			"more": ["Concept Development", "Agile Methodology"],
+			"deliveryTime": "2-3 day",
+			"gitUrl": "https://github.com/BeckiW/Bookshop-Site",
+			"description": "In partnership with Fyndiq and YDB, the idea of this project was to build a site where you could add and rate products. The site also has login functions, encryption with bcrypt hashed passwords, and server-side validation. Added extras include pagination via the API",
+			"shortDescription": "A bookshop product site where you can add and rate books. This site is built with SASS, React, Node, Express and MongoDB."
+		},
+
+		{
+			"id": 5,
+			"type": "assignment",
 			"title": "iOS To-Do App",
 			"previewImage": "to-do-small.jpg",
 			"heroImage" : "todo-hero.jpg",
 			"techSpecs": ["Swift", "iOS"],
-			"toolBox": ["XCode", "Git", "Slack", "Trello"],
+			"toolBox": ["XCode", "Git"],
 			"more": ["Agile Methodology"],
 			"deliveryTime": "1-2 day",
 			"gitUrl": "https://github.com/BeckiW/To-do-list",
@@ -66,7 +79,24 @@
 		},
 
 		{
-			"id": 5,
+			"id": 6,
+			"type": "assignment",
+			"title": "Sverige Radio Player",
+			"previewImage": "Sverige-Radio-small.jpg",
+			"heroImage": "Sverige-Radio-Hero.jpg",
+			"techSpecs": ["HTML5", "CSS", "Javascript (ES6)", "React", "RESTful API"],
+			"toolBox": ["Git", "Postman", "Slack", "Trello"],
+			"more": ["Agile Methodology"],
+			"deliveryTime": "1-2 days",
+			"demo": "[Sverige Radio Player Demo]()",
+			"demoUrl": "http://beckiwordsworth.com/project-radio-player/",
+			"gitUrl": "https://github.com/BeckiW/Radio-Player",
+			"description": "A searchable radio player using channels from the Sverige Radio's API. The search function lets you filter through the channels and find your favourite station to play. The page itself is responsive with media queries for mobile and tablet.",
+			"shortDescription": "A searchable radio player built in React using Sveriges Radio's API to fetch, filter and play your favourite radio channel."
+		},
+
+		{
+			"id": 7,
 			"type": "assignment",
 			"title": "Food Blog",
 			"previewImage": "food-blog-small.jpg",
@@ -81,39 +111,6 @@
 			"gitUrl": "https://github.com/BeckiW/Expressen-Online-Newspaper",
 			"description": "New online newspaper made for Bonnier News using Vanilla Javascript, HTML, and CSS, along with the Google News API. We were tasked with developing a new lifestyle site and we chose a food theme. You are able to filter through food catagories and load more articles if you want to see more.",
 			"shortDescription": "Designed a new online lifestyle site using Javascript, HTML, CSS and Google's News API for Bonnier News"
-		},
-
-		{
-			"id": 6,
-			"type": "assignment",
-			"title": "Jobs Site",
-			"previewImage": "jobs-small.jpg",
-				"heroImage" : "jobs-hero.jpg",
-			"techSpecs": ["HTML5", "CSS5", "Javascript (ES6)", "React", "React Router", "RESTful API"],
-			"toolBox": ["Git", "Postman", "Slack", "Trello"],
-			"more": ["Concept Development", "Agile Methodology"],
-			"deliveryTime": "1-4 days",
-			"solution": "Lorem ipsum dolor sit amet",
-			"demoUrl": "http://project-job-site.beckiwordsworth.com/",
-			"gitUrl": "https://github.com/BeckiW/Jobs-site",
-			"description": "We developed a multipage career site for our partner Comprend using their recruitment API. Built with HTML, CSS, Javascript, and React, this project was the first time I used React Router to move between pages. The project has small features that stand out, like randomly generating the colleagues you willl be working with in one of the component every time you refresh the page.",
-			"shortDescription": "An new multi page job site built in React and utilising React Router using their internal recruitment API for client Comprend"
-		},
-
-		{
-			"id": 7,
-			"type": "assignment",
-			"title": "Time Zone Clock",
-			"previewImage": "clock-small.jpg",
-				"heroImage" : "clock-hero.jpg",
-			"techSpecs": ["HTML5", "CSS5", "Javascript (ES6)", "React"],
-			"toolBox": ["Git", "Postman", "Slack", "Trello"],
-			"more": ["Concept Development", "Agile Methodology"],
-			"deliveryTime": "1 day",
-			"demoURL": "http://beckiwordsworth.com/project-world-clock/",
-			"gitUrl": "https://github.com/BeckiW/World-Clock",
-			"description": "A world timezone clock built with React and using moment.js to work with times. You are able to compare the time in Stockholm to other countries in the world. I built this because I was always struggling with timezones when I was setting up interviews with developer candidates living abroad to get the right time!",
-			"shortDescription": "A timezone comparison clock built with Javascript and React and using moment.js to compare time in differnt countries around the world"
 		},
 
 		{
@@ -134,17 +131,17 @@
 		{
 			"id": 9,
 			"type": "assignment",
-			"title": "Python Candidate Database",
-			"previewImage": "Candidate-small.jpg",
-			"heroImage" : "Candidate-hero.jpg",
-			"techSpecs": ["Python", "tKinter", "SQLite"],
+			"title": "Python Volcano Map",
+			"previewImage": "webmap-small.jpg",
+			"heroImage" : "webmap-hero.jpg",
+			"techSpecs": ["HTML", "CSS", "Javascript", "Python", "Folium", "Pandas"],
 			"toolBox": ["Git", "Trello"],
 			"more": ["Concept Development", "Agile Methodology"],
 			"deliveryTime": "1-2 day",
 			"solution": "Lorem ipsum dolor sit amet",
 			"gitUrl": "https://github.com/BeckiW/Candidate-Database",
-			"description": "A candidate database I built during my time working as a Technical Recruiter. I needed a way to store candidates I had contacted and built this simple datatbase and user interface with Python, tKinter and SQLite to store, update and delete potential canadiates in the loop.",
-			"shortDescription": "A candidate database built with Python, tKinter and SQLite to store, update and delete potential canadiates in the loop"
+			"description": "A web map showing you where volcanos are in North America. The map has three layers: the base map, the middle layer that shows you the population of the countries and a top layer with Volcano points. All layers can be switched on and off. You can also click on the points to get more information on the volcano.",
+			"shortDescription": "A web map that gives you information about population and volcano location. Built with HTML, CSS, Javascript, Python, Folium, and Pandas."
 		}
 	]
 }
