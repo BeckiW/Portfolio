@@ -11,8 +11,8 @@ class Skills extends React.Component {
 
         <div className="javascript-skills">
           <h3>Javascript Development Student</h3>
-          <p> {"I'm studying at an intense 12 week program with Technigo, which is focussing on JavaScript (ES6), React, and server-side programming with Node.\
-            I am coding everyday, working on individual and group assignments which see us working and producing projects with real clients in an agile environment."} </p>
+          <p> {"I studied at an intense 12 week program with Technigo, which focussed on JavaScript (ES6), React, and server-side programming with Node.\
+            I was coding everyday, working on individual and group assignments which see us working and producing projects with real clients, such as Volumnetal, Svenska Spel and Bonnier News, in an agile environment."} </p>
         </div>
 
         <div className="phD-skills">

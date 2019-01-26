@@ -23,7 +23,11 @@ class Landing extends React.Component {
       <section className="landing-section content-padding">
         <h2>About Me</h2>
         <hr />
-        <p>I am a self-driven and creative problem solver with a PhD in Medical Physics and a passion for working with technology, software and cool new ideas who is currently digging deep into JavaScript(ES6+), React and Node.js.  While working in research I used statistical and scripting languages (Python, SPSS, Matlab) for analysis. That inspired me to delve deeper into programming and based on that I decided to move from hobby programmer to full-time developer. I spent 3 years as a technical recruiter, leading my own team, and working with a range of companies from exciting startups to worldwide brands such as Apple. In this time I was able to dive deeper into understanding the buisness aspects of technology choices and team building and now I am putting all these pieces together. </p>
+        <p>I am a self-driven and creative problem solver with a PhD in Medical Physics and a passion for working with technology, software and cool new ideas who is currently digging deep into JavaScript(ES6+), React, Redux, and Node.js. <br/> <br/>
+
+        While working in research I used statistical and scripting languages (Python, SPSS, Matlab) for analysis. That inspired me to delve deeper into programming and last year I made the leap and moved from hobby programmer to full-time developer. <br/> <br/>
+
+        Prior to that I spent 3 years as a technical recruiter, leading my own team, and working with a range of companies from exciting startups to worldwide brands such as Apple. In this time I was able to dive deeper into understanding the buisness aspects of technology choices and team building and now I am putting all these pieces together. </p>
       </section>
 
       <section className="landing-section content-padding">
