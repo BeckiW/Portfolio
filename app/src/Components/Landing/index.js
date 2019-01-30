@@ -27,7 +27,9 @@ class Landing extends React.Component {
 
         While working in research I used statistical and scripting languages (Python, SPSS, Matlab) for analysis. That inspired me to delve deeper into programming and last year I made the leap and moved from hobby programmer to full-time developer. <br/> <br/>
 
-        Prior to that I spent 3 years as a technical recruiter, leading my own team, and working with a range of companies from exciting startups to worldwide brands such as Apple. In this time I was able to dive deeper into understanding the buisness aspects of technology choices and team building and now I am putting all these pieces together. </p>
+        Prior to that I spent 3 years as a technical recruiter, leading my own team, and working with a range of companies from exciting startups to worldwide brands such as Apple. In this time I was able to dive deeper into understanding the buisness aspects of technology choices and team building and now I am putting all these pieces together working as a Software Developer in an exciting startup environment. <br/> <br/>
+
+        Tech: HTML5, CSS, Javascript, React, Redux, Node, MongoDB</p>
       </section>
 
       <section className="landing-section content-padding">
