@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom"
 import './App.css';
 import Header from './Components/Header'
 import Footer from './Components/Footer'
-import ProjectsPreview from './Components/ProjectPreviews'
-import Skills from './Components/Skills'
+
 import Landing from './Components/Landing'
 import ProjectPage from './Components/ProjectPage'
 import PageNotFound from './Components/PageNotFound'

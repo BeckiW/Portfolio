@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./style.css"
-import Header from '../Header'
-import Footer from '../Footer'
+
 import ProjectPreview from "../ProjectPreview"
 import "./style.css"
 

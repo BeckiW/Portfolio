@@ -13,7 +13,7 @@ class ProjectPage extends React.Component {
       <header className="page-header">
         <div className="logo">
           <span className="page-title">Becki Wordsworth</span><br />
-          <span className="page-subtitle">Javascript Developer &amp; Researcher</span>
+          <span className="page-subtitle">Software Developer &amp; Researcher</span>
         </div>
         <div className="navigation">
           <nav>

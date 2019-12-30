@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./style.css";
 import ProjectPreviews from "../ProjectPreviews";
 import Skills from "../Skills";
@@ -15,7 +15,7 @@ class Landing extends React.Component {
             My name is <strong>Becki</strong>
           </h1>
           <div class="tagline">
-            I am a JavaScript Developer and Researcher who loves new technology,
+            I am a Software Developer and Researcher who loves new technology,
             science and Formula 1.
           </div>
         </div>
@@ -38,15 +38,24 @@ class Landing extends React.Component {
             to dive deeper into understanding the buisness aspects of technology
             choices and team building and now I am putting all these pieces
             together. <br /> <br />
-            Tech: HTML5, CSS, Javascript, React, Redux, Node, MongoDB
+            In my spare time, I like to build small applications with
+            JavaScript, Python and Swift and take time improving my knowledge
+            and skills in the area of machine learning and AI.
+            <br /> <br />
+            Overall, I want to work with innovative technology alongside
+            passionate people and make a bit of a difference in the world.
+            <br />
+  
+            <br /> Tech: HTML5, CSS, JavaScript (ES6+), React, Redux, NodeJS,
+            Python, MongoDB
           </p>
         </section>
 
-        <section className="landing-section content-padding">
+        {/* <section className="landing-section content-padding">
           <h2>Technology</h2>
           <hr />
           <Tech />
-        </section>
+        </section> */}
 
         <section className="landing-section content-padding">
           <h2>
