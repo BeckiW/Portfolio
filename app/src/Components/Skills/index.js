@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
-import "./style.css"
-
+import React, { Component } from "react";
+import "./style.css";
 
 class Skills extends React.Component {
-
   render() {
     return (
-
       <div className="skills-component">
         <div className="coding-skills">
           <h3>Coding</h3>
@@ -14,16 +11,16 @@ class Skills extends React.Component {
             <li>HTML5</li>
             <li>CSS</li>
             <li>SASS</li>
-            <li>Javascript (ES6)</li>
+            <li>Javascript (ES6+)</li>
             <li>React</li>
             <li>Redux</li>
             <li>Node</li>
             <li>Express.js</li>
             <li>MongoDB</li>
-            <li>Herouku</li>
+            <li>Docker</li>
+            <li>ElasticSearch</li>
             <li>Python</li>
             <li>Swift</li>
-
           </ul>
         </div>
 
@@ -48,11 +45,9 @@ class Skills extends React.Component {
             <li>Data Visualisation</li>
           </ul>
         </div>
-
       </div>
-
-    )
+    );
   }
 }
 
-export default Skills
+export default Skills;
