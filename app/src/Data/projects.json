@@ -62,13 +62,18 @@
       "title": "Storage App",
       "previewImage": "storage3.png",
       "heroImage": "storage3.png",
-      "techSpecs": ["Javascript (ES6+)", "React Native"],
+      "techSpecs": [
+        "Javascript (ES6+)",
+        "React Native",
+        "React Hooks",
+        "restdb.io"
+      ],
       "toolBox": ["Git", "Slack", "Trello"],
       "more": ["Concept Development", "Agile Methodology"],
       "deliveryTime": "2-3 day",
       "gitUrl": "https://github.com/BeckiW/storage-app",
-      "description": "Small app built with React Native that stores and shows ",
-      "shortDescription": "A React Native app that ."
+      "description": "A React Native that can be used to monitor which employees are on leave/holiday so you can store their items while they are away, giving you space but also looking after their equipment and personal items, and reminds you when they are returning. The app gives you the ability to inventory all their computers/desks/boxes, add and update their leave and return date and remind you when they are about to return so you can remove things from storage. Built with React Native using React Hooks and restdb.io as a backend",
+      "shortDescription": "A React Native used to monitor which employees are on leave/holiday so you can store items while they are away and reminds you when they are returning"
     },
 
     {
