@@ -45,12 +45,12 @@ class Landing extends React.Component {
             <a href="https://www.meetup.com/sthlm-js/" target="_blank">
               sthlm.js meetup group
             </a>
-            and head of events and a teacher for{" "}
+            &nbsp;and head of events and a teacher for{" "}
             <a href="https://www.code-excursion.com/" target="_blank">
-              Code Excursion
+              Code Excursion,
             </a>
-            , an organisation that runs events and workshops aimed at getting
-            more women into coding.
+            &nbsp;an organisation that runs events and workshops aimed at
+            getting more women into coding.
             <br /> <br />
             Overall, I want to work with innovative technology alongside
             passionate people and make a bit of a difference in the world.
