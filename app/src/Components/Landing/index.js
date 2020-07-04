@@ -40,12 +40,21 @@ class Landing extends React.Component {
             together. <br /> <br />
             In my spare time, I like to build small applications with
             JavaScript, Python and Swift and take time improving my knowledge
-            and skills in the area of machine learning and AI.
+            and skills in the area of machine learning and AI. I also enjoy
+            getting involved in the community, I am a co-organiser of{" "}
+            <a href="https://www.meetup.com/sthlm-js/" target="_blank">
+              sthlm.js meetup group
+            </a>
+            and head of events and a teacher for{" "}
+            <a href="https://www.code-excursion.com/" target="_blank">
+              Code Excursion
+            </a>
+            , an organisation that runs events and workshops aimed at getting
+            more women into coding.
             <br /> <br />
             Overall, I want to work with innovative technology alongside
             passionate people and make a bit of a difference in the world.
             <br />
-  
             <br /> Tech: HTML5, CSS, JavaScript (ES6+), React, Redux, NodeJS,
             Python, MongoDB
           </p>
